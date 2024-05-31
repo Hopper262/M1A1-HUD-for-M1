@@ -1,0 +1,36 @@
+M1A1 HUD v1.1
+-------------
+Artwork by the M1A1 team
+Scripting by Hopper
+
+----------------------------------------------------------------
+DESCRIPTION:
+M1A1 HUD brings the M1A1 project's Marathon 2-style HUD to the native Marathon scenario running in Aleph One 1.1 or later.
+
+----------------------------------------------------------------
+REQUIREMENTS:
+- Aleph One release 2013-07-14 (1.1b2) or later
+- The original Marathon scenario (not M1A1), available from source.bungie.org
+
+----------------------------------------------------------------
+INSTALLATION:
+- Drag the downloaded .zip file, or the unzipped "M1A1 HUD" folder, into the "Plugins" folder inside your Marathon folder. (Create a "Plugins" folder if you don't already have one.)
+- Launch Aleph One, and go to "Preferences", then "Environment", then "Plugins" make sure the plugin is listed as "Enabled". You can click on it to turn it on or off. Disable any other HUD plugins you have installed.
+
+ALSO NOTE: "Use HUD Script" (located in the Environment preferences) MUST be unchecked! The plugin won't work if that checkbox is on.
+
+----------------------------------------------------------------
+CHANGELOG:
+
+v1.1:
+* First public release
+
+----------------------------------------------------------------
+SPECIAL THANKS:
+Raul Bonilla and the rest of the M1A1 team - For obvious reasons
+Treellama - For putting up with me
+
+----------------------------------------------------------------
+CONTACT:
+If you have any questions, comments or bugs to report, you can email me:
+- hopper@whpress.com
