@@ -1,4 +1,4 @@
-M1A1 HUD v1.1
+M1A1 HUD v1.2
 -------------
 Artwork by the M1A1 team
 Scripting by Hopper
@@ -10,18 +10,20 @@ M1A1 HUD brings the M1A1 project's Marathon 2-style HUD to the native Marathon s
 ----------------------------------------------------------------
 REQUIREMENTS:
 - Aleph One release 2013-07-14 (1.1b2) or later
-- The original Marathon scenario (not M1A1), available from source.bungie.org
+- The original Marathon scenario (not M1A1), available from alephone.lhowon.org
 
 ----------------------------------------------------------------
 INSTALLATION:
 - Drag the downloaded .zip file, or the unzipped "M1A1 HUD" folder, into the "Plugins" folder inside your Marathon folder. (Create a "Plugins" folder if you don't already have one.)
-- Launch Aleph One, and go to "Preferences", then "Environment", then "Plugins" make sure the plugin is listed as "Enabled". You can click on it to turn it on or off. Disable any other HUD plugins you have installed.
-
-ALSO NOTE: "Use HUD Script" (located in the Environment preferences) MUST be unchecked! The plugin won't work if that checkbox is on.
+- Launch Aleph One, and go to "Preferences", then "Environment", then "Plugins" and make sure the plugin is listed as "Enabled". You can click on it to turn it on or off. Disable any other HUD plugins you have installed.
 
 ----------------------------------------------------------------
 CHANGELOG:
 
+v1.2:
+* Fixes errors in net games with a kill limit
+* Fixes incorrect score display in time-based net games
+* Improves compatibility with Visual Mode.lua
 v1.1:
 * First public release
 
@@ -32,5 +34,5 @@ Treellama - For putting up with me
 
 ----------------------------------------------------------------
 CONTACT:
-If you have any questions, comments or bugs to report, you can email me:
-- hopper@whpress.com
+If you have any questions, comments or bugs to report, open an issue on GitHub:
+https://github.com/Hopper262/M1A1-HUD-for-M1
